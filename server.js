@@ -3,7 +3,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-const Contact = require('./models/Contact'); // ✅ Corrected path
+const Contact = require('./models/contact'); // ✅ Corrected path
 
 const app = express();
 
